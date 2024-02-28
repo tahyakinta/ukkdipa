@@ -1,0 +1,125 @@
+.navbar-brand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px; /* Add margin to adjust positioning */
+}
+
+.dropdown {
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+.dropdown-menu {
+    margin-top: 10px;
+}
+
+.custom-css-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.col-md-2 {
+      font-size: 30px;
+      color: purple;
+      font-weight: bold;
+  }
+  
+  .btn-danger {
+      border-radius: 15px; /* Add border radius */
+      border: none; /* Remove border */
+      background-color: #dc3545; /* Set button background color to red */
+      color: #fff; /* Set text color to white */
+  }
+  
+  .btn-primary {
+      border-radius: 15px; /* Add border radius */
+      border: none; /* Remove border */
+      background-color: #007bff; /* Set button background color to blue */
+      color: #fff; /* Set text color to white */
+  }
+  
+  .btn-danger:hover,
+  .btn-primary:hover {
+      opacity: 0.8; /* Reduce opacity on hover */
+  }
+  
+  .btn-danger:focus,
+  .btn-primary:focus {
+      outline: none; /* Remove outline */
+      box-shadow: none; /* Remove box shadow */
+  }
+  
+
+.card {
+    opacity: 0.95; /* Increase opacity */
+    position: relative;
+    border-radius: 15px; /* Increase border radius for a smoother look */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Add a softer box shadow */
+    padding: 20px; /* Add padding for content */
+    background-color: rgba(255, 255, 255, 0.9); /* Set background color to a lighter shade */
+}
+
+.arrow-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #000; /* Set arrow color */
+    font-size: 20px; /* Set arrow size */
+}
+
+body {
+        background-image: url('assets/background.png'); /* Ganti 'path/to/your/image.jpg' dengan path menuju gambar latar belakang Anda */
+        background-size: cover; /* Menyesuaikan ukuran gambar agar mencakup seluruh halaman */
+        background-position: center; /* Posisi gambar di tengah halaman */
+    margin-top: 10px;
+    height: 110vh;
+    margin-bottom: 50px;
+    color: #000; /* Change text color to black for better contrast */
+}
+
+.form-control,
+.form-select {
+    background-color: rgba(255, 255, 255, 0.7); /* Lighten background color */
+    color: #000; /* Change text color to black */
+    border: 2px solid #000; /* Set border to black */
+    border-radius: 15px;
+    padding: 0.5rem;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.7); /* Soften the stroke */
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: rgb(173, 216, 230); /* Lighten background color when focused */
+    border: 2px solid #000; /* Set border to black when focused */
+    border-radius: 15px;
+    padding: 0.5rem;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.9); /* Soften the stroke when focused */
+    outline: none;
+}
+
+.btn-success,
+.btn-warning {
+    border-radius: 15px;
+    border: none;
+}
+
+.btn-success:hover,
+.btn-warning:hover {
+    opacity: 0.8;
+}
+
+.btn-success:focus,
+.btn-warning:focus {
+    outline: none;
+    box-shadow: none;
+}
+.btn-cyan {
+    background-color: rgb(100, 149, 237);
+}
+
+.btn-kembali{
+ background-color: rgb(119, 136, 153)
+}
+
